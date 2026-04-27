@@ -463,6 +463,9 @@
 "Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/PacMon.cs"
+"Assets/Scripts/Player.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
