@@ -465,6 +465,8 @@
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
 "Assets/Pac-Mon/script/PacMon.cs"
+"Assets/PBS Materials Variety Pack/zzz/MaterialRandomizer.cs"
+"Assets/PBS Materials Variety Pack/zzz/MaterialRandomizerScript.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Player.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
