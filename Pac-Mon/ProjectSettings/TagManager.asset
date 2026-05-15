@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PacMon
   - Spheres
+  - Portal
   layers:
   - Default
   - TransparentFX

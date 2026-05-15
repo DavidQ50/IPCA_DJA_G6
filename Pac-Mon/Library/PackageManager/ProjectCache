@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/DJ/IPCA_DJA_G6/Pac-Mon/Packages/manifest.json
+    m_FilePath: C:/IPCA/2Ano/2Semestre/DJA/IPCA_DJA_G6/Pac-Mon/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639132372164885866
-    m_Hash: 2058272165
+      ticks: 639144323348188793
+    m_Hash: 2492668852
   m_LockFileStatus:
-    m_FilePath: C:/DJ/IPCA_DJA_G6/Pac-Mon/Packages/packages-lock.json
+    m_FilePath: C:/IPCA/2Ano/2Semestre/DJA/IPCA_DJA_G6/Pac-Mon/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639132372164898061
-    m_Hash: 284320329
+      ticks: 639144323348255349
+    m_Hash: 1246650005
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/DJ/IPCA_DJA_G6/Pac-Mon/Packages
+m_ProjectPath: C:/IPCA/2Ano/2Semestre/DJA/IPCA_DJA_G6/Pac-Mon/Packages
 m_EditorVersion: 6000.3.8f1 (1c7db571dde0)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.10
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.10
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ai.navigation@c33a115e9883
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ai.navigation@c33a115e9883
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -167,7 +167,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.11.3
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -363,7 +363,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.39
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ide.rider@4504839d03f7
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ide.rider@4504839d03f7
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -508,7 +508,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.26
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -632,12 +632,126 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.ide.vscode@1.2.5
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.5
+  source: 1
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ide.vscode@82e68656b7bd
+  assetPath: Packages/com.unity.ide.vscode
+  name: com.unity.ide.vscode
+  displayName: Visual Studio Code Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Code editor integration for supporting Visual Studio Code as code
+    editor for unity. Adds support for generating csproj files for intellisense purposes,
+    auto discovery of installations, etc.
+  errors: []
+  versions:
+    all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    compatible:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637800255360000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+    revision: b0740c80bfc2440527c317109f7c3d9100132722
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 1
+    deprecationMessage: Visual Studio Code package is not supported anymore. You
+      can continue to use it, but we won't provide any update anymore.
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.2
+    minimumUnityVersion: 2019.2.0a12
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.inputsystem@1.18.0
   testable: 0
   isDirectDependency: 1
   version: 1.18.0
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.inputsystem@57d0e36f6123
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.inputsystem@57d0e36f6123
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -818,7 +932,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -920,12 +1034,151 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.postprocessing@3.5.1
+  testable: 0
+  isDirectDependency: 1
+  version: 3.5.1
+  source: 1
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.postprocessing@4a41da475b74
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  errors: []
+  versions:
+    all:
+    - 0.1.7
+    - 0.1.8
+    - 2.0.0-beta
+    - 2.0.1-beta
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.5-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.0.10-preview
+    - 2.0.11-preview
+    - 2.0.12-preview
+    - 2.0.13-preview
+    - 2.0.14-preview
+    - 2.0.15-preview
+    - 2.0.16-preview
+    - 2.0.17-preview
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0
+    - 3.0.1
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.2.0
+    - 3.2.1
+    - 3.2.2
+    - 3.3.0
+    - 3.4.0
+    - 3.5.0
+    - 3.5.1
+    - 3.5.3
+    - 3.5.4
+    compatible:
+    - 3.5.1
+    - 3.5.3
+    - 3.5.4
+    recommended: 3.5.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638938742139640000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Graphics.git
+    revision: fa7961686d1f2babd45a3acaf1f3939696bd1b2e
+    path: 
+  unityLifecycle:
+    version: 3.5.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Added Switch2 platform support\n\n###
+    Fixed\n- Remove support for PVRTC format in Unity 6.1 or newer\n- Fixed compute
+    based effects not supported on OpenGLES\n- Fixed issue with FastSign on WebGL/Safari
+    (IN-71005)\n- Documentation updates"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 4a41da475b743ff131a9cfa5fdb2ff80d2c0f2d4
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.5.1
+    minimumUnityVersion: 2019.4.19f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.render-pipelines.universal@17.3.0
   testable: 0
   isDirectDependency: 1
   version: 17.3.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.render-pipelines.universal@a6e30d1f59f5
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.render-pipelines.universal@a6e30d1f59f5
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -1056,12 +1309,137 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.shadergraph@17.3.0
+  testable: 0
+  isDirectDependency: 1
+  version: 17.3.0
+  source: 2
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.shadergraph@d44b48771ebb
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  errors: []
+  versions:
+    all:
+    - 17.3.0
+    compatible:
+    - 17.3.0
+    recommended: 17.3.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.3.0
+  - name: com.unity.searcher
+    version: 4.9.3
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.3.0
+  - name: com.unity.burst
+    version: 1.8.27
+  - name: com.unity.mathematics
+    version: 1.3.3
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.6.2
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.6
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.9.4
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.3.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: d44b48771ebbf9479f0179b89a001f76788f52dc
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.3.0
+    minimumUnityVersion: 6000.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.test-framework@1.6.0
   testable: 0
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1162,7 +1540,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.10
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1367,7 +1745,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ugui@bb329a87fcdc
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ugui@bb329a87fcdc
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -1474,7 +1852,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.9
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1616,7 +1994,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1704,7 +2082,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.adaptiveperformance
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -1798,7 +2176,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1886,7 +2264,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1973,7 +2351,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2061,7 +2439,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2149,7 +2527,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2237,7 +2615,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2329,7 +2707,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.director
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2425,7 +2803,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2513,7 +2891,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2601,7 +2979,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2689,7 +3067,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2777,7 +3155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2865,7 +3243,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2953,7 +3331,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3045,7 +3423,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3133,7 +3511,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3229,7 +3607,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3320,7 +3698,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3408,7 +3786,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3516,7 +3894,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3604,7 +3982,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3699,7 +4077,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3787,7 +4165,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3883,7 +4261,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3979,7 +4357,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4075,7 +4453,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4187,7 +4565,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.vectorgraphics
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -4294,7 +4672,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4386,7 +4764,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.video
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4486,7 +4864,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -4589,7 +4967,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4677,7 +5055,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4777,7 +5155,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4869,7 +5247,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4957,7 +5335,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5048,7 +5426,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.3.0
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.render-pipelines.core@d6dfd1e235d5
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.render-pipelines.core@d6dfd1e235d5
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -5176,71 +5554,53 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.shadergraph@17.3.0
+- packageId: com.unity.searcher@4.9.4
   testable: 0
   isDirectDependency: 0
-  version: 17.3.0
-  source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.shadergraph@d44b48771ebb
-  assetPath: Packages/com.unity.shadergraph
-  name: com.unity.shadergraph
-  displayName: Shader Graph
+  version: 4.9.4
+  source: 1
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.searcher@d45a78918735
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
   author:
     name: 
     email: 
     url: 
   category: 
   type: 
-  description: The Shader Graph package adds a visual Shader editing tool to Unity.
-    You can use this tool to create Shaders in a visual way instead of writing code.
-    Specific render pipelines can implement specific graph features. Currently, both
-    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
-    Shader Graph.
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
   errors: []
   versions:
     all:
-    - 17.3.0
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
     compatible:
-    - 17.3.0
-    recommended: 17.3.0
+    - 4.9.4
+    recommended: 4.9.4
     deprecated: []
-  dependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.3.0
-  - name: com.unity.searcher
-    version: 4.9.3
-  resolvedDependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.3.0
-  - name: com.unity.burst
-    version: 1.8.27
-  - name: com.unity.mathematics
-    version: 1.3.3
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 2.6.2
-  - name: com.unity.test-framework
-    version: 1.6.0
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.6
-  - name: com.unity.test-framework.performance
-    version: 3.2.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.searcher
-    version: 4.9.4
-  keywords: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
   registry:
     id: main
     name: 
@@ -5254,35 +5614,36 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
+  datePublishedTicks: 638965670878140000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.searcher@4.9/manual/index.html
+  hasRepository: 1
   repository:
-    type: 
-    url: 
-    revision: 
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 6fad693b6604ae7175b59ebb4990d9a0b6c1d012
     path: 
   unityLifecycle:
-    version: 17.3.0
+    version: 4.9.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
+    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: 
+  upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
+    Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
   signature:
-    status: 0
-    reason: 
+    status: 1
+    reason: Signature is ok
     attestation:
-      format: 
-      publishingChannel: 
+      format: archive
+      publishingChannel: unity
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
@@ -5290,11 +5651,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: d44b48771ebbf9479f0179b89a001f76788f52dc
+  fingerprint: d45a78918735dd5b1de2247c6e3567c60aa24115
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.3.0
-    minimumUnityVersion: 6000.3
+    minimumPackageVersion: 4.9.4
+    minimumUnityVersion: 2019.1
   compliance:
     status: 0
     violation:
@@ -5306,7 +5667,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5418,120 +5779,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.searcher@4.9.4
-  testable: 0
-  isDirectDependency: 0
-  version: 4.9.4
-  source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.searcher@d45a78918735
-  assetPath: Packages/com.unity.searcher
-  name: com.unity.searcher
-  displayName: Searcher
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: General search window for use in the Editor. First target use is for
-    GraphView node search.
-  errors: []
-  versions:
-    all:
-    - 4.0.0-preview
-    - 4.0.0
-    - 4.0.7-preview
-    - 4.0.7
-    - 4.0.8-preview
-    - 4.0.9
-    - 4.1.0-preview
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 4.3.2
-    - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
-    - 4.9.2
-    - 4.9.3
-    - 4.9.4
-    compatible:
-    - 4.9.4
-    recommended: 4.9.4
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - search
-  - searcher
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638965670878140000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.searcher@4.9/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 6fad693b6604ae7175b59ebb4990d9a0b6c1d012
-    path: 
-  unityLifecycle:
-    version: 4.9.4
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 0
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
-    Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: d45a78918735dd5b1de2247c6e3567c60aa24115
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 4.9.4
-    minimumUnityVersion: 2019.1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.burst@1.8.27
   testable: 0
   isDirectDependency: 0
   version: 1.8.27
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.burst@973857688024
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.burst@973857688024
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5776,7 +6029,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.3
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -5887,7 +6140,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.6.2
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.collections@aea9d3bd5e19
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.collections@aea9d3bd5e19
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6090,7 +6343,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.6
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -6195,7 +6448,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.0
   source: 1
-  resolvedPath: C:\DJ\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
+  resolvedPath: C:\IPCA\2Ano\2Semestre\DJA\IPCA_DJA_G6\Pac-Mon\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
@@ -6268,6 +6521,7 @@ m_ResolvedPackages:
     - 3.4.0
     - 3.4.1
     - 3.4.2
+    - 3.5.0
     compatible:
     - 3.2.0
     - 3.2.1
@@ -6275,6 +6529,7 @@ m_ResolvedPackages:
     - 3.4.0
     - 3.4.1
     - 3.4.2
+    - 3.5.0
     recommended: 3.2.1
     deprecated: []
   dependencies:

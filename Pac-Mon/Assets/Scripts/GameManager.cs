@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
     int pontuacaoModoInfinito;
     GameObject[] spheres;
     public static GameManager Instance;
+    public Animator portalAnimator;
 
     private void Awake()
     {
@@ -29,9 +30,18 @@ public class GameManager : MonoBehaviour
     {
         int sphereCount = spheres.Length;
 
-        if (sphereCount == 0) // Example condition, adjust as needed
+        if (sphereCount == 0)
         {
-            Debug.Log("All spheres collected! Door opened.");
+            Debug.Log("All spheres collected! Portal opened.");
+            
+            
+        
+        
+            
+
+
+
+
         }
     }
     // Update is called once per frame
