@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public enum GameMode { Normal, Infinito };
+    public GameMode currentGameMode;
     int pontuacaoModoInfinito;
     GameObject[] spheres;
     public static GameManager Instance;
@@ -19,6 +21,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        if (currentGameMode == GameMode.Infinito)
+        {
+            pontuacaoModoInfinito = 0;
+        }
+    }
+    
     void sphereCount()
     {
         spheres = GameObject.FindGameObjectsWithTag("Spheres");
@@ -37,7 +47,15 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        sphereCount();
-        openDoor();
+        if (currentGameMode == GameMode.Infinito)
+        {
+           
+        }
+        else
+        {
+            sphereCount();
+            openDoor();
+        }
+        
     }
 }
