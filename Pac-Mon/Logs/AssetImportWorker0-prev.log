@@ -5,7 +5,12 @@ OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'pt' Physical Memory: 16310 
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
+<<<<<<< HEAD
 Date: 2026-05-17T16:36:25Z
+=======
+Date: 2026-05-15T09:02:07Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-David" at "2026-05-15T09:02:07.4588324Z"
+>>>>>>> parent of 3841e64a (portal)
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
@@ -19,7 +24,11 @@ G:/trabalhoDJD/IPCA_DJA_G6/Pac-Mon
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 50372
+=======
+65266
+>>>>>>> parent of 3841e64a (portal)
 -licensingIpc
 LicenseClient-Zé Mina
 -job-worker-count
@@ -67,12 +76,23 @@ G:/trabalhoDJD/IPCA_DJA_G6/Pac-Mon
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
+<<<<<<< HEAD
 Player connection [22896]  Target information:
 
 Player connection [22896]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3224033852 [EditorId] 3224033852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-576QN7I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [22896] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [22896] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [22828]  Target information:
+
+Player connection [22828]  * "[IP] 172.16.7.133 [Port] 0 [Flags] 2 [Guid] 1798737256 [EditorId] 1798737256 [Version] 1048832 [Id] WindowsEditor(7,PC-QUERIDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22828]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 1798737256 [EditorId] 1798737256 [Version] 1048832 [Id] WindowsEditor(7,PC-QUERIDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22828] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22828] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> parent of 3841e64a (portal)
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +104,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 9.26 ms, found 3 plugins.
+>>>>>>> parent of 3841e64a (portal)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -100,6 +124,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -121,10 +146,34 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.458 seconds
 Domain Reload Profiling: 1191ms
 	BeginReloadAssembly (217ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007522 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              1704419c864c4f309e0505940013a51b
+  Correlation Id:          f2f6b83998662ca2b5a1a1dfee7c16a7
+  External correlation Id: 5685547099848726263
+  Machine Id:              rtEc105T+gTMSbLVOViUDh58gVs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-David" (connect: 0.00s, validation: 0.01s, handshake: 1.96s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-David-notifications" at "2026-05-15T09:02:09.4203426Z"
+[Licensing::Module] Licensing Background thread has ended after 1.96s
+- Loaded All Assemblies, in  0.868 seconds
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1567ms
+	BeginReloadAssembly (350ms)
+>>>>>>> parent of 3841e64a (portal)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (59ms)
 	RebuildNativeTypeToScriptingClass (31ms)
@@ -147,6 +196,30 @@ Domain Reload Profiling: 1191ms
 			BeforeProcessingInitializeOnLoad (97ms)
 			ProcessInitializeOnLoadAttributes (182ms)
 			ProcessInitializeOnLoadMethodAttributes (83ms)
+=======
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (317ms)
+				TypeCache.ScanAssembly (291ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (702ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (80ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+>>>>>>> parent of 3841e64a (portal)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -161,8 +234,13 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+<<<<<<< HEAD
 - Loaded All Assemblies, in  1.650 seconds
 Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  1.385 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+>>>>>>> parent of 3841e64a (portal)
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -170,6 +248,7 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.517 seconds
 Domain Reload Profiling: 3142ms
 	BeginReloadAssembly (248ms)
@@ -10037,10 +10116,16 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.898 seconds
 Domain Reload Profiling: 1630ms
 	BeginReloadAssembly (216ms)
+=======
+- Finished resetting the current domain, in  1.487 seconds
+Domain Reload Profiling: 2867ms
+	BeginReloadAssembly (351ms)
+>>>>>>> parent of 3841e64a (portal)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (51ms)
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
@@ -95488,9 +95573,45 @@ Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6226 unused Assets / (8.7 MB). Loaded Objects now: 7188.
 Memory consumption went from 183.1 MB to 174.4 MB.
 Total: 25.579100 ms (FindLiveObjects: 0.758900 ms CreateObjectMapping: 0.693800 ms MarkObjects: 6.623800 ms  DeleteObjects: 17.501600 ms)
+=======
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (894ms)
+		LoadAssemblies (732ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (239ms)
+			BuildScriptInfoCaches (88ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1487ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1164ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (762ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6342 unused Assets / (6.2 MB). Loaded Objects now: 7181.
+Memory consumption went from 155.5 MB to 149.2 MB.
+Total: 18.113200 ms (FindLiveObjects: 1.194800 ms CreateObjectMapping: 0.529900 ms MarkObjects: 11.372000 ms  DeleteObjects: 5.015000 ms)
+>>>>>>> parent of 3841e64a (portal)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Begin MonoManager ReloadAssembly
 ADTM: Control thread waiting for realtime thread timed out, have to lock...
@@ -98774,5 +98895,21 @@ Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6226 unused Assets / (8.7 MB). Loaded Objects now: 7191.
 Memory consumption went from 183.9 MB to 175.2 MB.
 Total: 22.710300 ms (FindLiveObjects: 0.751000 ms CreateObjectMapping: 0.732700 ms MarkObjects: 6.552500 ms  DeleteObjects: 14.672800 ms)
+=======
+Received Import Request.
+  Time since last request: 38347.728703 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(40a355ddc8d4afc43a79075e336385d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations using Guid(40a355ddc8d4afc43a79075e336385d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd289244ed4ffa898ef9af14aa10c4f9a') in 0.0616261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Animations/Portal.anim
+  artifactKey: Guid(9d2088fd07aea5041b1ebdc1f6346bc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Portal.anim using Guid(9d2088fd07aea5041b1ebdc1f6346bc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ff06b21e01ef76e4bae17a79e1e6753') in 0.0524525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+>>>>>>> parent of 3841e64a (portal)
 
 Prepare: number of updated asset objects reloaded= 0

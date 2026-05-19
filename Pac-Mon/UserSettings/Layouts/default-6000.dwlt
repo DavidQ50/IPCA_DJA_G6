@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Scene
+=======
+  m_Title: Hierarchy
+>>>>>>> parent of 3841e64a (portal)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +123,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 38
+=======
+  controlID: 8407
+>>>>>>> parent of 3841e64a (portal)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +153,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 39
+=======
+  controlID: 8408
+>>>>>>> parent of 3841e64a (portal)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +183,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 40
+=======
+  controlID: 8409
+>>>>>>> parent of 3841e64a (portal)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -694,11 +710,21 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
+<<<<<<< HEAD
       - m_Data: 53016
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
       - m_Data: -51948
+=======
+      - m_Data: 46688
+      m_LastClickedID:
+        m_Data: 46688
+      m_ExpandedIDs:
+      - m_Data: -1340
+      - m_Data: 46628
+      - m_Data: 46880
+>>>>>>> parent of 3841e64a (portal)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1439,7 +1465,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.24079733, y: 0.49942404, z: -0.1468059, w: 0.81917334}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: 0.24079731, y: 0.499424, z: -0.1468059, w: 0.81917334}
+=======
+    m_Value: {x: -0.39146087, y: 0.1832866, z: -0.079876065, w: -0.89821166}
+>>>>>>> parent of 3841e64a (portal)
   m_Size:
     m_Target: 434.0675
     speed: 2
@@ -1598,6 +1628,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 199}
     m_SelectedIDs:
     - m_Data: 63674
@@ -1615,6 +1646,23 @@ MonoBehaviour:
     - m_Data: 63674
     - m_Data: 63676
     - m_Data: 63678
+=======
+    scrollPos: {x: 0, y: 118.79999}
+    m_SelectedIDs:
+    - m_Data: 47742
+    m_LastClickedID:
+      m_Data: 47742
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 47604
+    - m_Data: 47606
+    - m_Data: 47608
+    - m_Data: 47610
+    - m_Data: 47612
+    - m_Data: 47614
+    - m_Data: 47616
+    - m_Data: 47618
+>>>>>>> parent of 3841e64a (portal)
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -1650,6 +1698,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
+<<<<<<< HEAD
     - m_Data: 63660
     - m_Data: 63662
     - m_Data: 63664
@@ -1660,6 +1709,18 @@ MonoBehaviour:
     - m_Data: 63674
     - m_Data: 63676
     - m_Data: 63678
+=======
+    - m_Data: 47604
+    - m_Data: 47606
+    - m_Data: 47608
+    - m_Data: 47610
+    - m_Data: 47612
+    - m_Data: 47614
+    - m_Data: 47616
+    - m_Data: 47618
+    - m_Data: 1000000000
+    - m_Data: 2147483647
+>>>>>>> parent of 3841e64a (portal)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1687,9 +1748,15 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
+<<<<<<< HEAD
     - m_Data: 53016
     m_LastClickedInstanceID: 53016
     m_HadKeyboardFocusLastEvent: 0
+=======
+    - m_Data: 46688
+    m_LastClickedInstanceID: 46688
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> parent of 3841e64a (portal)
     m_ExpandedInstanceIDs:
     - m_Data: 67800
     - m_Data: 67920

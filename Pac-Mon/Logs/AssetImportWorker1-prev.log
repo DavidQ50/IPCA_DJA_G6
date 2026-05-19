@@ -5,7 +5,12 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-Zé Mina" at "2026-05-17T16:36:25.3453802Z"
 System  architecture: x64
 Process architecture: x64
+<<<<<<< HEAD
 Date: 2026-05-17T16:36:25Z
+=======
+Date: 2026-05-15T09:02:07Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-David" at "2026-05-15T09:02:07.4789606Z"
+>>>>>>> parent of 3841e64a (portal)
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
@@ -19,7 +24,11 @@ G:/trabalhoDJD/IPCA_DJA_G6/Pac-Mon
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 50372
+=======
+65266
+>>>>>>> parent of 3841e64a (portal)
 -licensingIpc
 LicenseClient-Zé Mina
 -job-worker-count
@@ -67,12 +76,23 @@ G:/trabalhoDJD/IPCA_DJA_G6/Pac-Mon
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
+<<<<<<< HEAD
 Player connection [1872]  Target information:
 
 Player connection [1872]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3618282415 [EditorId] 3618282415 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-576QN7I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [1872] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [1872] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [15228]  Target information:
+
+Player connection [15228]  * "[IP] 172.16.7.133 [Port] 0 [Flags] 2 [Guid] 1894987194 [EditorId] 1894987194 [Version] 1048832 [Id] WindowsEditor(7,PC-QUERIDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15228]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 1894987194 [EditorId] 1894987194 [Version] 1048832 [Id] WindowsEditor(7,PC-QUERIDO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15228] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15228] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> parent of 3841e64a (portal)
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +104,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 8.83 ms, found 3 plugins.
+>>>>>>> parent of 3841e64a (portal)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -100,6 +124,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -121,11 +146,35 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.456 seconds
 Domain Reload Profiling: 1185ms
 	BeginReloadAssembly (214ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004640 seconds.
+- Loaded All Assemblies, in  0.844 seconds
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              c38b92337685442d9b19dfe4e982b6e3
+  Correlation Id:          f2f6b83998662ca2b5a1a1dfee7c16a7
+  External correlation Id: 3238199419177450254
+  Machine Id:              rtEc105T+gTMSbLVOViUDh58gVs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-David" (connect: 0.00s, validation: 0.01s, handshake: 1.94s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-David-notifications" at "2026-05-15T09:02:09.4290798Z"
+[Licensing::Module] Licensing Background thread has ended after 1.95s
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1564ms
+	BeginReloadAssembly (363ms)
+>>>>>>> parent of 3841e64a (portal)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (56ms)
 	RebuildNativeTypeToScriptingClass (23ms)
 	initialDomainReloadingComplete (128ms)
@@ -147,6 +196,29 @@ Domain Reload Profiling: 1185ms
 			BeforeProcessingInitializeOnLoad (94ms)
 			ProcessInitializeOnLoadAttributes (184ms)
 			ProcessInitializeOnLoadMethodAttributes (80ms)
+=======
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (280ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+>>>>>>> parent of 3841e64a (portal)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -161,8 +233,13 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+<<<<<<< HEAD
 - Loaded All Assemblies, in  1.641 seconds
 Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  1.390 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+>>>>>>> parent of 3841e64a (portal)
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -170,6 +247,7 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.536 seconds
 Domain Reload Profiling: 3155ms
 	BeginReloadAssembly (243ms)
@@ -88908,6 +88986,64 @@ Received Import Request.
   artifactKey: Guid(f2e0b7ae4dae8cf44955bccd3512b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Mini First Person Controller/First Person Controller Minimal.prefab using Guid(f2e0b7ae4dae8cf44955bccd3512b213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e29f50803f84c30c5722d1a2ca045353') in 0.7983464 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+=======
+- Finished resetting the current domain, in  1.428 seconds
+Domain Reload Profiling: 2812ms
+	BeginReloadAssembly (329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (920ms)
+		LoadAssemblies (740ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (249ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1117ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (238ms)
+			ProcessInitializeOnLoadAttributes (772ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6342 unused Assets / (4.5 MB). Loaded Objects now: 7181.
+Memory consumption went from 155.3 MB to 150.9 MB.
+Total: 9.902200 ms (FindLiveObjects: 1.141500 ms CreateObjectMapping: 0.467700 ms MarkObjects: 6.103300 ms  DeleteObjects: 2.188100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38347.686947 seconds.
+  path: Assets/Animations/Portal.controller
+  artifactKey: Guid(5d46b0dfa23d96d42af352efec6e18c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Portal.controller using Guid(5d46b0dfa23d96d42af352efec6e18c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0ca3e4957dde7a8d72f65592f56974f') in 0.1029693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/lvl1.unity
+  artifactKey: Guid(a02299df3c1ee424ead0d0d8024576e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/lvl1.unity using Guid(a02299df3c1ee424ead0d0d8024576e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '858b6a6e8c6ddbf669ff81455b981996') in 0.0186718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+>>>>>>> parent of 3841e64a (portal)
 
 ========================================================================
 Received Import Request.
