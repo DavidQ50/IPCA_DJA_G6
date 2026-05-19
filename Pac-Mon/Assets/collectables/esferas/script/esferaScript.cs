@@ -4,6 +4,14 @@ using System.Collections;
 
 public class esferaScript : MonoBehaviour
 {
+    void Start()
+    {
+        spawnSpheres();
+    }
+    void spawnSpheres()
+    {
+    }
+    
     void Update()
     {
     }
