@@ -20,5 +20,10 @@ public class Player : MonoBehaviour
         {
             transform.position = new Vector3(39, 1, 37);
         }
+
+        // if (col.gameObject.tag == "Sphere")
+        // {
+        //     GameManager.Instance.pontuacaoModoInfinito++;
+        // }
     }
 }

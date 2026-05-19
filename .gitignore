@@ -1,0 +1,9 @@
+/Pac-Mon/Library/
+/Pac-Mon/Temp/
+/Pac-Mon/Obj/
+/Pac-Mon/Build/
+/Pac-Mon/Builds/
+/Pac-Mon/Logs/
+/Pac-Mon/User[S|s]ettings/
+/Pac-Mon/.csproj
+/Pac-Mon/.sln

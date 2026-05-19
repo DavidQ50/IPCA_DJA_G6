@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - PacMon
+  - Spheres
+  - Sphere_spawn
+  - Wall_Spawn
   layers:
   - Default
   - TransparentFX
