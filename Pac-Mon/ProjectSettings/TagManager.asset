@@ -6,7 +6,8 @@ TagManager:
   tags:
   - PacMon
   - Spheres
-  - Portal
+  - Sphere_spawn
+  - Wall_Spawn
   layers:
   - Default
   - TransparentFX
