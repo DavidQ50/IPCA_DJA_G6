@@ -680,7 +680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1112488381496447598}
   m_Layer: 0
-  m_Name: SET1
+  m_Name: Set1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,9 +946,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e713ec3f7d900dc4b87e8c3d4a743468, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e713ec3f7d900dc4b87e8c3d4a743468, type: 3}
       propertyPath: m_Name
       value: L_wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: e713ec3f7d900dc4b87e8c3d4a743468, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1023,6 +1031,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e713ec3f7d900dc4b87e8c3d4a743468, type: 3}
       propertyPath: m_Name
       value: L_wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: e713ec3f7d900dc4b87e8c3d4a743468, type: 3}
+      propertyPath: m_Convex
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
